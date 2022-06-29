@@ -39,12 +39,12 @@
 	<body>
 		<div id="gameContainer">
 			<canvas id="unity-canvas"></canvas>
-			<script src="Build/Build.loader.js"></script>
+			<script src="Build/GameBuild.loader.js"></script>
 			<script>
 				createUnityInstance(document.querySelector("#unity-canvas"), {
-					dataUrl: "Build/Build.data",
-					frameworkUrl: "Build/Build.framework.js",
-					codeUrl: "Build/Build.wasm",
+					dataUrl: "Build/GameBuild.data",
+					frameworkUrl: "Build/GameBuild.framework.js",
+					codeUrl: "Build/GameBuild.wasm",
 					streamingAssetsUrl: "StreamingAssets",
 					companyName: "DavidRajotte",
 					productName: "EatingWell",
